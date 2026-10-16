@@ -1,0 +1,257 @@
+{
+  "version": "0.1.1",
+  "status": "stable",
+  "interface": "existing Atlas prototype",
+  "source_commit": "51b8e93e68b63be6ba4c84c9630166f2e3f13e43",
+  "source_tree": "2f24f79c9cf774c6fc53c4471dacea752d4fa804",
+  "export_reference_date": "2026-09-30",
+  "model_projection": [
+    "want",
+    "info",
+    "continents",
+    "basis",
+    "venueTakeRate",
+    "asOf",
+    "render"
+  ],
+  "gate_projection": [
+    "leaves",
+    "summary",
+    "aggregates",
+    "zero_claims"
+  ],
+  "source_files": {
+    "design/data/atlas-export.json": {
+      "bytes": 2663689,
+      "sha256": "1321a600308beb439ffb56bbe2679f3480d1f41094321fbd6e077bc0b4724049"
+    },
+    "design/data/atlas.json": {
+      "bytes": 1491032,
+      "sha256": "28aac1b5adecd4bb6d50b2c4ae98d383ceca54ab7f3ec4af5d24de5f8d83fb41"
+    },
+    "design/Atlas Prototype.dc.html": {
+      "bytes": 272807,
+      "sha256": "e5207e887bfcb83a634b6c5c4b2bd347322351326c014fa74ea4a51768da7737"
+    },
+    "design/support.js": {
+      "bytes": 66404,
+      "sha256": "c60c49083997f51a592df118c0068475337afd20b8cfd8e1cd9d5eb0c7e254f6"
+    },
+    "design/data/render-manifest.json": {
+      "bytes": 1481182,
+      "sha256": "afdf9ac689a1b7c4790410808c7cbceab63288b0e7ac2b4ae503338deb5c72ed"
+    }
+  },
+  "edits": [
+    {
+      "name": "private-panel",
+      "old_sha256": "7cdde5cb9f74b19f995b4ffcd5f3280c4e338f7c6eb2a97d0bd1c036f130a93d",
+      "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "private-methods",
+      "old_sha256": "b2b919c6433d984d6450a62422ff331304f9b865cea00c3f2e2c93b894424088",
+      "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "private-local",
+      "old_sha256": "5775c99b946789f55d944af30bc28197030ba13f635b64d571669fb0ee3937a6",
+      "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "private-bindings",
+      "old_sha256": "1e45dec68a9f5fc34f911206b0d835f47262c22892d85e052673b8a4a5381a06",
+      "new_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "local-runtime",
+      "old_sha256": "ffb66e5e4dd5ae47580350c498fde73e968bde337e5cb84efef40d7030741359",
+      "new_sha256": "55ed7a745112445961c52d5279f8b762ede864d1d51f4a08314f8f54801eb310"
+    },
+    {
+      "name": "local-fonts",
+      "old_sha256": "cafcfd1838d073e3f142df9ab8279d3940b5dab02dcdad35d01a309cc2c42851",
+      "new_sha256": "70fe962e73f0fa1ab8ae852eb06a3231d05ca09ea9adadca695c742419c28a75"
+    },
+    {
+      "name": "local-three",
+      "old_sha256": "dbf4d69b0c68c2a9193065a863f3e627f48c44d8c9f1b488fe9ebe5786e302ff",
+      "new_sha256": "e80496659898fc5908103a3551915f3e1261d443732e5ddc5d3d6f074fe51b22"
+    },
+    {
+      "name": "release-envelope",
+      "old_sha256": "4fadd478c244f3b04d602fcdb5bb0164f7d1d5d6c0ddcaeaceef3f7682e71a58",
+      "new_sha256": "589de3eef3288f39578810b11a36c661ac86be1fe1c67dfd76ea7ac5ef5ff6ea"
+    }
+  ],
+  "dependencies": {
+    "react.production.min.js": {
+      "url": "https://unpkg.com/react@18.3.1/umd/react.production.min.js",
+      "bytes": 10751,
+      "sha256": "d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd"
+    },
+    "react-dom.production.min.js": {
+      "url": "https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js",
+      "bytes": 131835,
+      "sha256": "35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d"
+    },
+    "three.module.js": {
+      "url": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "bytes": 1272972,
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    "react-LICENSE.txt": {
+      "url": "https://unpkg.com/react@18.3.1/LICENSE",
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    "react-dom-LICENSE.txt": {
+      "url": "https://unpkg.com/react-dom@18.3.1/LICENSE",
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    "three-LICENSE.txt": {
+      "url": "https://cdn.jsdelivr.net/npm/three@0.160.0/LICENSE",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    "archivo-OFL.txt": {
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/OFL.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    "newsreader-OFL.txt": {
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    "fonts-original.css": {
+      "url": "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap",
+      "bytes": 1532,
+      "sha256": "cb66dd48129e39173bb644b6d19d415bce03ced217a47b26a903a9f72839a870"
+    },
+    "font-f76a1a3496feab2a.ttf": {
+      "url": "https://fonts.gstatic.com/s/archivo/v25/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT0zRp8A.ttf",
+      "bytes": 111948,
+      "sha256": "bed60488c2f5c0b24e01d931760b6f3e9a82619dcd081ed9bff643d9f4fd9e3d"
+    },
+    "font-a10670bbc2ae0a5c.ttf": {
+      "url": "https://fonts.gstatic.com/s/archivo/v25/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTT6jRp8A.ttf",
+      "bytes": 111872,
+      "sha256": "f3a513d89abf3bf1d5aa906b15f21eefe7a7c98a6cf6463929a0a4032639d264"
+    },
+    "font-98feebc75f48e003.ttf": {
+      "url": "https://fonts.gstatic.com/s/archivo/v25/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTBjNp8A.ttf",
+      "bytes": 112136,
+      "sha256": "bf52802dc93c0d9933f92a8d0da0126124f8c37a838b3cc513190036df14587d"
+    },
+    "font-24c76040e08d6857.ttf": {
+      "url": "https://fonts.gstatic.com/s/archivo/v25/k3k6o8UDI-1M0wlSV9XAw6lQkqWY8Q82sJaRE-NWIDdgffTTNDNp8A.ttf",
+      "bytes": 110708,
+      "sha256": "01170409e32e22123a354fbaa7dcb5ca5300790bb77c05d569ec8fdc394e78c9"
+    },
+    "font-dfe936d7a3e5c58f.ttf": {
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438wJo_ADA.ttf",
+      "bytes": 109432,
+      "sha256": "0ebe594e405b7849e52721b494cc260d26150c94baf8e7f6ad8f8c15f3af2788"
+    },
+    "font-d6c65600eb0149bc.ttf": {
+      "url": "https://fonts.gstatic.com/s/newsreader/v26/cY9qfjOCX1hbuyalUrK49dLac06G1ZGsZBtoBCzBDXXD9JVF438weI_ADA.ttf",
+      "bytes": 109472,
+      "sha256": "b8f5e0a8bdd6a12c722ca5635d9da87e77ccbb2d0172112e34e00c4e55f2cd5a"
+    },
+    "fonts.css": {
+      "derived_from": "fonts-original.css",
+      "bytes": 1080,
+      "sha256": "5e2da55331c1d16f40919ca99efbb3d5c68db4cdda4d2b6df7715aa608287034"
+    }
+  },
+  "files": {
+    "assets/archivo-OFL.txt": {
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    "assets/font-24c76040e08d6857.ttf": {
+      "bytes": 110708,
+      "sha256": "01170409e32e22123a354fbaa7dcb5ca5300790bb77c05d569ec8fdc394e78c9"
+    },
+    "assets/font-98feebc75f48e003.ttf": {
+      "bytes": 112136,
+      "sha256": "bf52802dc93c0d9933f92a8d0da0126124f8c37a838b3cc513190036df14587d"
+    },
+    "assets/font-a10670bbc2ae0a5c.ttf": {
+      "bytes": 111872,
+      "sha256": "f3a513d89abf3bf1d5aa906b15f21eefe7a7c98a6cf6463929a0a4032639d264"
+    },
+    "assets/font-d6c65600eb0149bc.ttf": {
+      "bytes": 109472,
+      "sha256": "b8f5e0a8bdd6a12c722ca5635d9da87e77ccbb2d0172112e34e00c4e55f2cd5a"
+    },
+    "assets/font-dfe936d7a3e5c58f.ttf": {
+      "bytes": 109432,
+      "sha256": "0ebe594e405b7849e52721b494cc260d26150c94baf8e7f6ad8f8c15f3af2788"
+    },
+    "assets/font-f76a1a3496feab2a.ttf": {
+      "bytes": 111948,
+      "sha256": "bed60488c2f5c0b24e01d931760b6f3e9a82619dcd081ed9bff643d9f4fd9e3d"
+    },
+    "assets/fonts.css": {
+      "bytes": 1080,
+      "sha256": "5e2da55331c1d16f40919ca99efbb3d5c68db4cdda4d2b6df7715aa608287034"
+    },
+    "assets/newsreader-OFL.txt": {
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    "assets/react-LICENSE.txt": {
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    "assets/react-dom-LICENSE.txt": {
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    "assets/react-dom.production.min.js": {
+      "bytes": 131835,
+      "sha256": "35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d"
+    },
+    "assets/react.production.min.js": {
+      "bytes": 10751,
+      "sha256": "d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd"
+    },
+    "assets/three-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    "assets/three.module.js": {
+      "bytes": 1272972,
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    "data/atlas-export.json": {
+      "bytes": 2663689,
+      "sha256": "1321a600308beb439ffb56bbe2679f3480d1f41094321fbd6e077bc0b4724049"
+    },
+    "data/atlas.json": {
+      "bytes": 1601559,
+      "sha256": "cc6f916defa0d44d606810f33725b6e0ae19ea5bca5b937ef292d89f62725dd2"
+    },
+    "data/render-manifest.json": {
+      "bytes": 1204582,
+      "sha256": "99e06bf804237f4ff220e552c79b7ac08cd90f92f7337aff8757b87ce46ef489"
+    },
+    "index.html": {
+      "bytes": 266804,
+      "sha256": "f8d8ec9232db48e4909ff4039cdf8298c638e2afd3c91eb53aee6a7342996598"
+    },
+    "release-config.js": {
+      "bytes": 387,
+      "sha256": "38f9420746c6e2d508ac9d2d8e3f6c8c84559d73852701c21d3bd8973733175b"
+    },
+    "support.js": {
+      "bytes": 66404,
+      "sha256": "c60c49083997f51a592df118c0068475337afd20b8cfd8e1cd9d5eb0c7e254f6"
+    }
+  },
+  "private_content_removed": true,
+  "legacy_financial_wall_verdicts": "retained exactly; not the private jurisdiction axis"
+}
