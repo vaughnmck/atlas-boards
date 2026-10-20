@@ -1,0 +1,116 @@
+{
+  "version": "0.2.1",
+  "status": "stable",
+  "state": "STABLE FROZEN SNAPSHOT",
+  "package_grants_publication": false,
+  "full_signed_ci": "COMPLETE 208 LOCAL; SIGNED ADOPTION; REQUIRED PR AND ACTUAL MAIN CI VERIFIED",
+  "operator_finalisation": {
+    "candidate": "0.2.1-rc.4",
+    "state": "OPERATOR_REQUESTED_STABLE_PREPARATION",
+    "manifest_sha256": "a6cc17518b0c8f3076eb333ff9f9094524447c56431b0c29cffd5793dcff2303",
+    "archive_sha256": "ed4b3ff2b3bed8f581fab8afe38013c658118548a6d8c7cd3c5a3033e59642e1"
+  },
+  "source_board_signoffs": "UNCHANGED; formal per-board signoffs are not inferred from the finalisation instruction",
+  "snapshot_note": "Frozen dated snapshot. The PM source is an offline correction of retained October 19 evidence, not a fresh production observation. Publication does not refresh observations; each figure retains its own source window. Unsupported annual and whole-28-day PM cash remain gaps.",
+  "source_adoption": "SIGNED AND GUARDED ADOPTED",
+  "source_commit": "6d3efb36d42f13a5449163114cb1dafd5cb9e196",
+  "source_tree": "7eb4a9947a0a552c3e0d5639754e6390e2f12565",
+  "interface": "existing Atlas boards",
+  "source": "6d3efb36d42f13a5449163114cb1dafd5cb9e196",
+  "export_reference_date": "2026-09-30",
+  "files": {
+    "assets/archivo-OFL.txt": {
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    "assets/font-24c76040e08d6857.ttf": {
+      "bytes": 110708,
+      "sha256": "01170409e32e22123a354fbaa7dcb5ca5300790bb77c05d569ec8fdc394e78c9"
+    },
+    "assets/font-98feebc75f48e003.ttf": {
+      "bytes": 112136,
+      "sha256": "bf52802dc93c0d9933f92a8d0da0126124f8c37a838b3cc513190036df14587d"
+    },
+    "assets/font-a10670bbc2ae0a5c.ttf": {
+      "bytes": 111872,
+      "sha256": "f3a513d89abf3bf1d5aa906b15f21eefe7a7c98a6cf6463929a0a4032639d264"
+    },
+    "assets/font-d6c65600eb0149bc.ttf": {
+      "bytes": 109472,
+      "sha256": "b8f5e0a8bdd6a12c722ca5635d9da87e77ccbb2d0172112e34e00c4e55f2cd5a"
+    },
+    "assets/font-dfe936d7a3e5c58f.ttf": {
+      "bytes": 109432,
+      "sha256": "0ebe594e405b7849e52721b494cc260d26150c94baf8e7f6ad8f8c15f3af2788"
+    },
+    "assets/font-f76a1a3496feab2a.ttf": {
+      "bytes": 111948,
+      "sha256": "bed60488c2f5c0b24e01d931760b6f3e9a82619dcd081ed9bff643d9f4fd9e3d"
+    },
+    "assets/fonts.css": {
+      "bytes": 1080,
+      "sha256": "5e2da55331c1d16f40919ca99efbb3d5c68db4cdda4d2b6df7715aa608287034"
+    },
+    "assets/newsreader-OFL.txt": {
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    "assets/react-LICENSE.txt": {
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    "assets/react-dom-LICENSE.txt": {
+      "bytes": 1086,
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    "assets/react-dom.production.min.js": {
+      "bytes": 131835,
+      "sha256": "35f4f974f4b2bcd44da73963347f8952e341f83909e4498227d4e26b98f66f0d"
+    },
+    "assets/react.production.min.js": {
+      "bytes": 10751,
+      "sha256": "d949f1c3687aedadcedac85261865f29b17cd273997e7f6b2bfc53b2f9d4c4dd"
+    },
+    "assets/three-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    "assets/three.module.js": {
+      "bytes": 1272972,
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    "data/atlas-export.json": {
+      "bytes": 4236390,
+      "sha256": "fa9c4255dd2db1e082ab50d0be6205bf62d21d98bb8ed3f4de301c74b74f978d"
+    },
+    "data/atlas.json": {
+      "bytes": 2007465,
+      "sha256": "653295a19cfcafc1238b9d8563cfc5728e76110256dbe6809aa2ddf726022181"
+    },
+    "data/render-manifest.json": {
+      "bytes": 1476806,
+      "sha256": "11ed9f7554b0cadad3ea594388efeb72ab903327f65e6689b8b6b386534fede1"
+    },
+    "evidence/pm-perpetuals/2026-10-14-completed.json": {
+      "bytes": 1454,
+      "sha256": "1608a4c75e168ac45f72f0b9c4304169738128ca3232ebe29b4c2988d3267874"
+    },
+    "evidence/pm-perpetuals/2026-10-14-instruments.response.json": {
+      "bytes": 74486,
+      "sha256": "95579c4f9e8b1c33c8b6757b11b69d38f12cb6869eb8acc15227ce9367be1b5d"
+    },
+    "index.html": {
+      "bytes": 281068,
+      "sha256": "306e8ef6add20d1a2ce002bbb57832aa58d8e41dc06a188607c07c44c9bb993b"
+    },
+    "release-config.js": {
+      "bytes": 387,
+      "sha256": "8b77c2a87750116c7314e6aff45c9b99499e9daf2bcc072a4b819de44c0981c1"
+    },
+    "support.js": {
+      "bytes": 66404,
+      "sha256": "c60c49083997f51a592df118c0068475337afd20b8cfd8e1cd9d5eb0c7e254f6"
+    }
+  },
+  "private_axis_removed": true
+}

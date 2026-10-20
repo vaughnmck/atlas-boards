@@ -1,0 +1,45 @@
+{
+  "started_utc": "2026-10-14T23:27:08.949262+00:00",
+  "request": {
+    "method": "GET",
+    "url": "https://api.perpetuals.polymarket.com/v1/info/instruments",
+    "query": null,
+    "headers": {
+      "User-Agent": "Mozilla/5.0",
+      "Accept": "application/json",
+      "Accept-Encoding": "identity"
+    }
+  },
+  "attempts": 1,
+  "signed_scope_sha256": "fbb137d4e2c27401b3c22a925af3f64199ffe9c46798ecc2e10e875ec7400b14",
+  "capture_code_sha256": "e67f1d2c3b6c3441b976ab063b6fcf0f4538d9bfa997105c11fb6054254b0d5a",
+  "documentation_sha256": "ba08c244fc8cd0b74165f40b3b383efc909de54a32bd0f348a007e91fe275e0e",
+  "status": "captured",
+  "application_body_bytes_read": 74486,
+  "http_status": 200,
+  "response_headers": {
+    "content-type": [
+      "application/json"
+    ],
+    "content-length": [
+      "74486"
+    ],
+    "date": [
+      "Wed, 14 Oct 2026 23:23:21 GMT"
+    ],
+    "age": [
+      "228"
+    ],
+    "cache-control": [
+      "public, max-age=0"
+    ]
+  },
+  "response_sha256": "95579c4f9e8b1c33c8b6757b11b69d38f12cb6869eb8acc15227ce9367be1b5d",
+  "retained_response_bytes": 74486,
+  "observed_rows": 88,
+  "empty_observation": false,
+  "coverage": "documented enabled-instrument listing; not all historical contracts",
+  "source_snapshot_time": "unknown; request interval and HTTP/cache headers retained",
+  "lifecycle_continuity": "unknown; one dated native-ID observation only",
+  "finished_utc": "2026-10-14T23:27:09.195783+00:00"
+}
